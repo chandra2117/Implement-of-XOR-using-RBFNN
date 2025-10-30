@@ -1,4 +1,4 @@
-H3>NAME : CHANDRAPRIYADHARSHINI C</H3>
+<H3>NAME : CHANDRAPRIYADHARSHINI C</H3>
 <H3>REGISTER NO : 212223240019</H3>
 <H3>EX. NO.5</H3>
 <H3>DATE:</H3>
@@ -87,21 +87,22 @@ def predict_matrix(point, weights):
 x1 = np.array([0, 0, 1, 1])
 x2 = np.array([0, 1, 0, 1])
 ys = np.array([0, 1, 1, 0])
-# centers
+#centers
 mu1 = np.array([0, 1])
 mu2 = np.array([1, 0])
 w = end_to_end(x1, x2, ys, mu1, mu2)
 
 
-# testing
-print(f"Input:{np.array([0, 0])}, Predicted: {                  }")
-print(f"Input:{np.array([0, 1])}, Predicted: {                }")
-print(f"Input:{np.array([1, 0])}, Predicted: {                }")
-print(f"Input:{np.array([1, 1])}, Predicted: {                 }")
+#testing
+for pt, p in zip(test_points, preds):
+    print(f"Input: {pt}, Predicted: {int(p)}")
 ```
 <H3>OUTPUT:</H3>
 
-Show your code here
+<img width="1183" height="527" alt="image" src="https://github.com/user-attachments/assets/6b9feb56-6df2-44cc-8e1c-83246c54cfc6" />
+
+<img width="339" height="90" alt="image" src="https://github.com/user-attachments/assets/9054090c-afdd-4341-adfa-61ac59185db3" />
+
 
 <H3>Result:</H3>
 Thus , a Radial Basis Function Neural Network is implemented to classify XOR data.
