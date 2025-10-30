@@ -97,6 +97,8 @@ w = end_to_end(x1, x2, ys, mu1, mu2)
 for pt, p in zip(test_points, preds):
     print(f"Input: {pt}, Predicted: {int(p)}")
 ```
+
+
 <H3>OUTPUT:</H3>
 
 <img width="1183" height="527" alt="image" src="https://github.com/user-attachments/assets/6b9feb56-6df2-44cc-8e1c-83246c54cfc6" />
